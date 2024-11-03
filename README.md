@@ -1,3 +1,22 @@
+# 카카오 테크 캠퍼스 스텝2 클론 코딩 프로젝트, 지도 검색 앱
+- 제작 : 주민철
+- 기간 : 24.07~08
+- 사용 기술 : 코틀린, 안드로이드 스튜디오, 리사이클러뷰, Retrofit, LiveData, Mock, Hilt, MVVM, DataBinding, 코루틴, 파이어베이스, Room 데이터베이스.
+
+## 앱 설명
+![권한 설정](https://github.com/user-attachments/assets/e86063e0-6edb-4e99-84c3-05d8b5f6f28b)
+앱을 처음 실행하면 스플래시 화면에서 알림 권한을 요청함.
+![초기 화면](https://github.com/user-attachments/assets/e6fd2f98-211a-46a8-b5c3-dc9ce936269c)
+초기 화면. 카카오 맵 API 사용. 검색창 클릭 시 검색 화면으로 이동.
+![검색 화면](https://github.com/user-attachments/assets/d7c32e34-65f1-46ea-8c12-f3da512f268a)
+검색 화면에서 검색어 입력 시 카카오 로컬 API를 사용해 검색 결과가 리사이클러뷰로 나옴.
+![결과 클릭 시](https://github.com/user-attachments/assets/84de7d5d-311d-4bc7-a266-faac30a7d185)
+검색 결과 클릭 시 지도에 장소를 표시함. BottomSheet로 간단한 정보도 표시. 이후 다시 검색창을 클릭 시
+![다시 검색 화면](https://github.com/user-attachments/assets/e5cfe1de-476c-4640-ab31-a7f13518ae09)
+클릭 했던 검색 결과가 기록으로 남음. 검색 기록은 Room 데이터베이스에 저장.
+![알림 화면](https://github.com/user-attachments/assets/3580b023-5711-4088-91d9-fd507d72669f)
+파이어베이스를 통해 앱에 알림을 보낼 수도 있음.
+
 # android-map-notification
 
 ## 1단계 - Splash Screen
